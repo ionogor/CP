@@ -1,0 +1,124 @@
+
+.list-group .list-group-item.active
+{
+    background: #bd194b;
+    border-radius: 0;
+}
+
+.list-group-item a{
+    color: #484848;
+}
+.list-group-item.active a{
+    color: white;
+}
+.green-bg{
+    background: #3a8100;
+}
+.yellow-bg{
+    background: #d4951c;
+}
+.blue-bg{
+    background: #1f428d;
+}
+.red-bg{
+    background: #bd194b;
+}
+.b-top{
+
+    margin-top: -40px;
+    height: fit-content;
+}
+
+.top-blocks .b-top
+{
+    width: 60px;
+}
+.mybtn{
+    background-color: #c3c4c2;
+    color: whitesmoke;
+    background-color: transparent;
+    padding: 5 5px;
+    margin: 5 5px;
+    height: 25px;
+    border: none;
+    width: 100px;
+}
+.mybtn a{
+    color: white;
+    text-decoration: none;
+}
+.mybtn:hover{
+    background-color: wheat;
+    height: 40px;
+}
+.buttons h6{
+    color: white;
+}
+
+.edit-item, .delete-item{
+    border-radius: 50%;
+    border: none;
+}
+.delete-itm{
+    border: none;
+    background-color: rgb(240, 59, 27);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+ 
+
+}
+.edit-itm{
+    border: none;
+    background-color: rgb(18, 116, 48);
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+}
+.edit-itm i{
+    color: white;
+    
+    
+}
+.delete-itm i{
+    color: white;
+    align-items: left;
+
+}
+.check{
+    padding:10px;
+    
+}
+.btn-check{
+    border:1px solid red;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.btn-check img{
+    color: white;
+
+}
+.check{
+    height: auto;
+    border:1px solid green;
+   
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.item-1{
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
